@@ -37,7 +37,7 @@ def hello():
 	return render_template("hello.html", firstname=firstname, lastname=lastname)
 
 
-@app.route('/fball', methods=['GET','POST'])
+@app.route('/football', methods=['GET','POST'])
 def fball():
     
 	if request.method == 'POST':
